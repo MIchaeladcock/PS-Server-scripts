@@ -3,13 +3,7 @@ function Get-PSServiceStatus {
 
 param (
     [string[]]$ComputerName,
-    [string]$ServiceName,
-    [string]$Path,
-    [string]$FromAddress,
-    [string]$ToAddress,
-    [string]$SmtpServer
 )
-
 
 $FromAddress = "PS-Script-Alert@domain.com"
 $ToAddress = "user@email.com"
